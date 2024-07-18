@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    tools:context=".Splashscreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:text="TUGAS UAS MATA KULIAH"
+        android:textColor="#2F318B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:text="MOBILE PROGRAMING 1"
+        android:textColor="#2F318B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/img_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/utb" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="DAULAH EL ISLAMI"
+        android:textColor="#2F318B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="22552011256"
+        android:textColor="#2F318B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="TIF 222 MB"
+        android:textColor="#2F318B"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

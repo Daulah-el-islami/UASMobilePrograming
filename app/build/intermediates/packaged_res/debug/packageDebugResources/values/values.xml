@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">UASMP1</string>
+    <string name="default_web_client_id" translatable="false">732073445769-g9r651n1ab31b98kuvr3d6i8fiut8u4b.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">732073445769</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDdljiu6SmbUafzuUdqKIQkhrTHLDI50g</string>
+    <string name="google_app_id" translatable="false">1:732073445769:android:e6e149890b5a3bedbd7958</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDdljiu6SmbUafzuUdqKIQkhrTHLDI50g</string>
+    <string name="google_storage_bucket" translatable="false">latihan-json-firestore.appspot.com</string>
+    <string name="project_id" translatable="false">latihan-json-firestore</string>
+    <style name="Base.Theme.LatihanCRUD" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.LatihanCRUD" parent="Base.Theme.LatihanCRUD"/>
+</resources>
