@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-41:/values-eu/values-eu.xml",
+            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-40:/values-eu/values-eu.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\273d59c7f872171a8e4682988119e755\\transformed\\appcompat-1.7.0\\res\\values-eu\\values-eu.xml",
@@ -57,6 +57,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\ecdf1fe8da1ceb104c233a8080a64ec3\\transformed\\play-services-base-18.3.0\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,293,461,581,686,834,955,1075,1179,1353,1457,1616,1740,1890,2046,2108,2169",
+                        "endColumns": "99,167,119,104,147,120,119,103,173,103,158,123,149,155,61,60,87",
+                        "endOffsets": "292,460,580,685,833,954,1074,1178,1352,1456,1615,1739,1889,2045,2107,2168,2256"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4829,4933,5105,5229,5338,5490,5615,5739,5990,6168,6276,6439,6567,6721,6881,6947,7012",
+                        "endColumns": "103,171,123,108,151,124,123,107,177,107,162,127,153,159,65,64,91",
+                        "endOffsets": "4928,5100,5224,5333,5485,5610,5734,5842,6163,6271,6434,6562,6716,6876,6942,7007,7099"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\b3dee67ffe4b585948212c5251a95667\\transformed\\browser-1.4.0\\res\\values-eu\\values-eu.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -71,23 +88,6 @@
                         "startOffsets": "7104,7436,7538,7651",
                         "endColumns": "99,101,112,104",
                         "endOffsets": "7199,7533,7646,7751"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\257f1f67082ec1efba7741bbc2da5cf2\\transformed\\play-services-base-18.1.0\\res\\values-eu\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,293,461,581,686,834,955,1075,1179,1353,1457,1616,1740,1890,2046,2108,2169",
-                        "endColumns": "99,167,119,104,147,120,119,103,173,103,158,123,149,155,61,60,87",
-                        "endOffsets": "292,460,580,685,833,954,1074,1178,1352,1456,1615,1739,1889,2045,2107,2168,2256"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4829,4933,5105,5229,5338,5490,5615,5739,5990,6168,6276,6439,6567,6721,6881,6947,7012",
-                        "endColumns": "103,171,123,108,151,124,123,107,177,107,162,127,153,159,65,64,91",
-                        "endOffsets": "4928,5100,5224,5333,5485,5610,5734,5842,6163,6271,6434,6562,6716,6876,6942,7007,7099"
                     }
                 },
                 {

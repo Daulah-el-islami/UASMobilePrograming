@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-41:/values-mr/values-mr.xml",
+            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-40:/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\003ee0c546472bcc7fae725dc36c46aa\\transformed\\material-1.12.0\\res\\values-mr\\values-mr.xml",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\257f1f67082ec1efba7741bbc2da5cf2\\transformed\\play-services-base-18.1.0\\res\\values-mr\\values.xml",
+                    "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\ecdf1fe8da1ceb104c233a8080a64ec3\\transformed\\play-services-base-18.3.0\\res\\values-mr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

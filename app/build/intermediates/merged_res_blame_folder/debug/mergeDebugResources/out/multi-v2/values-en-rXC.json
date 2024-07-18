@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-41:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.uasmobileprograming.app-mergeDebugResources-40:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Escobar\\.gradle\\caches\\transforms-3\\974d3adbf362132526e354e797850224\\transformed\\credentials-1.2.0-rc01\\res\\values-en-rXC\\values-en-rXC.xml",

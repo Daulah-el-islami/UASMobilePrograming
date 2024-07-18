@@ -324,162 +324,161 @@
 170            android:theme="@style/Theme.Hidden" >
 170-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Escobar\.gradle\caches\transforms-3\963ccae742c1ee8a6322254cc33e0bb5\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
 171        </activity>
-172
-173        <provider
-173-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-174            android:name="com.google.firebase.provider.FirebaseInitProvider"
-174-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-175            android:authorities="com.example.uasmobileprograming.firebaseinitprovider"
-175-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-176            android:directBootAware="true"
-176-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-177            android:exported="false"
-177-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-178            android:initOrder="100" />
-178-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-179
-180        <receiver
-180-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:29:9-33:20
-181            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-181-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:30:13-85
-182            android:enabled="true"
-182-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:31:13-35
-183            android:exported="false" >
-183-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:32:13-37
-184        </receiver>
-185
-186        <service
-186-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:35:9-38:40
-187            android:name="com.google.android.gms.measurement.AppMeasurementService"
-187-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:36:13-84
-188            android:enabled="true"
-188-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:37:13-35
-189            android:exported="false" />
-189-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:38:13-37
-190        <service
-190-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:39:9-43:72
-191            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-191-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:40:13-87
-192            android:enabled="true"
-192-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:41:13-35
-193            android:exported="false"
-193-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:42:13-37
-194            android:permission="android.permission.BIND_JOB_SERVICE" />
-194-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:43:13-69
-195
-196        <activity
-196-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-197            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-197-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-198            android:excludeFromRecents="true"
-198-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
-199            android:exported="false"
-199-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-200-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-201        <!--
-202            Service handling Google Sign-In user revocation. For apps that do not integrate with
-203            Google Sign-In, this service will never be started.
-204        -->
+172        <activity
+172-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:23:9-27:75
+173            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+173-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:24:13-93
+174            android:excludeFromRecents="true"
+174-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:25:13-46
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:26:13-37
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:27:13-72
+177        <!--
+178            Service handling Google Sign-In user revocation. For apps that do not integrate with
+179            Google Sign-In, this service will never be started.
+180        -->
+181        <service
+181-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:33:9-37:51
+182            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+182-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:34:13-89
+183            android:exported="true"
+183-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:35:13-36
+184            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+184-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:36:13-107
+185            android:visibleToInstantApps="true" />
+185-->[com.google.android.gms:play-services-auth:21.2.0] C:\Users\Escobar\.gradle\caches\transforms-3\4c3820410cb94b23fe39de517c31690d\transformed\play-services-auth-21.2.0\AndroidManifest.xml:37:13-48
+186
+187        <activity
+187-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\ecdf1fe8da1ceb104c233a8080a64ec3\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+188            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+188-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\ecdf1fe8da1ceb104c233a8080a64ec3\transformed\play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+189            android:exported="false"
+189-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\ecdf1fe8da1ceb104c233a8080a64ec3\transformed\play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+190            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+190-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\ecdf1fe8da1ceb104c233a8080a64ec3\transformed\play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+191
+192        <provider
+192-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+193            android:name="com.google.firebase.provider.FirebaseInitProvider"
+193-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+194            android:authorities="com.example.uasmobileprograming.firebaseinitprovider"
+194-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+195            android:directBootAware="true"
+195-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+196            android:exported="false"
+196-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+197            android:initOrder="100" />
+197-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Escobar\.gradle\caches\transforms-3\e687c0cc86becca3cd912a35666a3234\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+198
+199        <receiver
+199-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:29:9-33:20
+200            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+200-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:30:13-85
+201            android:enabled="true"
+201-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:31:13-35
+202            android:exported="false" >
+202-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:32:13-37
+203        </receiver>
+204
 205        <service
-205-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-206            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-206-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-207            android:exported="true"
-207-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-208            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-208-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-209            android:visibleToInstantApps="true" />
-209-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Escobar\.gradle\caches\transforms-3\e3efa59621a229dd937f8e1d2d349261\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-210
-211        <uses-library
-211-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-212            android:name="android.ext.adservices"
-212-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-213            android:required="false" />
-213-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+205-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:35:9-38:40
+206            android:name="com.google.android.gms.measurement.AppMeasurementService"
+206-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:36:13-84
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:37:13-35
+208            android:exported="false" />
+208-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:38:13-37
+209        <service
+209-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:39:9-43:72
+210            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+210-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:40:13-87
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:41:13-35
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:42:13-37
+213            android:permission="android.permission.BIND_JOB_SERVICE" />
+213-->[com.google.android.gms:play-services-measurement:22.0.2] C:\Users\Escobar\.gradle\caches\transforms-3\d8106b72f08435206229c08c3685c65b\transformed\play-services-measurement-22.0.2\AndroidManifest.xml:43:13-69
 214
-215        <activity
-215-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Escobar\.gradle\caches\transforms-3\257f1f67082ec1efba7741bbc2da5cf2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-216            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-216-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Escobar\.gradle\caches\transforms-3\257f1f67082ec1efba7741bbc2da5cf2\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-217            android:exported="false"
-217-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Escobar\.gradle\caches\transforms-3\257f1f67082ec1efba7741bbc2da5cf2\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-218-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Escobar\.gradle\caches\transforms-3\257f1f67082ec1efba7741bbc2da5cf2\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-219
-220        <meta-data
-220-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
-221            android:name="com.google.android.gms.version"
-221-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
-222            android:value="@integer/google_play_services_version" />
-222-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
-223
-224        <provider
-224-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-225            android:name="androidx.startup.InitializationProvider"
-225-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-226            android:authorities="com.example.uasmobileprograming.androidx-startup"
-226-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-227            android:exported="false" >
-227-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-228            <meta-data
-228-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-229                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-229-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-230                android:value="androidx.startup" />
-230-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-231            <meta-data
-231-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-232                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-232-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-233                android:value="androidx.startup" />
-233-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-234            <meta-data
-234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
-235                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-235-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
-236                android:value="androidx.startup" />
-236-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
-237        </provider>
-238
-239        <receiver
-239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
-240            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
-241            android:directBootAware="false"
-241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
-242            android:enabled="true"
-242-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
-243            android:exported="true"
-243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
-244            android:permission="android.permission.DUMP" >
-244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
-245            <intent-filter>
-245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
-246                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
-246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
-247            </intent-filter>
-248            <intent-filter>
-248-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
-249                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
-249-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
-250            </intent-filter>
-251            <intent-filter>
-251-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
-252                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
-252-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
-253            </intent-filter>
-254            <intent-filter>
-254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
-255                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
-255-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
-256            </intent-filter>
-257        </receiver>
-258    </application>
-259
-260</manifest>
+215        <uses-library
+215-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+216            android:name="android.ext.adservices"
+216-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+217            android:required="false" />
+217-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Escobar\.gradle\caches\transforms-3\6edd4ed86132e0215bb666dda0386a32\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+218
+219        <meta-data
+219-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+220            android:name="com.google.android.gms.version"
+220-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+221            android:value="@integer/google_play_services_version" />
+221-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Escobar\.gradle\caches\transforms-3\2f1e8c9d495930275763631832602225\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+222
+223        <provider
+223-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+224            android:name="androidx.startup.InitializationProvider"
+224-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+225            android:authorities="com.example.uasmobileprograming.androidx-startup"
+225-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+226            android:exported="false" >
+226-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+227            <meta-data
+227-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+228                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+228-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+229                android:value="androidx.startup" />
+229-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escobar\.gradle\caches\transforms-3\737e58bc0701db05f8e64d852ed5b0d9\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+230            <meta-data
+230-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+231                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+231-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+232                android:value="androidx.startup" />
+232-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Escobar\.gradle\caches\transforms-3\b7004a0c4a8329612ddacd929c47f9db\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+233            <meta-data
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+234                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+235                android:value="androidx.startup" />
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+236        </provider>
+237
+238        <receiver
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+239            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+240            android:directBootAware="false"
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+241            android:enabled="true"
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+242            android:exported="true"
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+243            android:permission="android.permission.DUMP" >
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+245                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+248                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+249            </intent-filter>
+250            <intent-filter>
+250-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+251                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+252            </intent-filter>
+253            <intent-filter>
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+254                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escobar\.gradle\caches\transforms-3\7929328eed6eded6e5f6b4cece59c3a2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+255            </intent-filter>
+256        </receiver>
+257    </application>
+258
+259</manifest>
