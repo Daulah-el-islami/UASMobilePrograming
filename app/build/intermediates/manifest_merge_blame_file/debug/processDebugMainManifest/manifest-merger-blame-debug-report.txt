@@ -62,17 +62,17 @@
 33        android:extractNativeLibs="false"
 34        android:fullBackupContent="@xml/backup_rules"
 34-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:12:9-54
-35        android:icon="@mipmap/ic_launcher"
-35-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:13:9-43
+35        android:icon="@drawable/utb2"
+35-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:13:9-38
 36        android:label="@string/app_name"
 36-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:14:9-41
-37        android:roundIcon="@mipmap/ic_launcher_round"
-37-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:15:9-54
+37        android:roundIcon="@drawable/utb2"
+37-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:15:9-43
 38        android:supportsRtl="true"
 38-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:16:9-35
 39        android:testOnly="true"
-40        android:theme="@style/Theme.LatihanCRUD" >
-40-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:17:9-49
+40        android:theme="@style/Theme.uasmp" >
+40-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:17:9-43
 41        <activity
 41-->C:\Users\Escobar\AndroidStudioProjects\UASMobilePrograming\app\src\main\AndroidManifest.xml:19:9-21:40
 42            android:name="com.example.uasmobileprograming.Login"

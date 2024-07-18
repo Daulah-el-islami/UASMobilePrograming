@@ -32,12 +32,12 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/utb2"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/utb2"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.LatihanCRUD" >
+        android:theme="@style/Theme.uasmp" >
         <activity
             android:name="com.example.uasmobileprograming.Login"
             android:exported="false" />

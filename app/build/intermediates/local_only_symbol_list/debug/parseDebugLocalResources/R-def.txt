@@ -11,6 +11,7 @@ drawable ic_launcher_foreground
 drawable ic_lock
 drawable ic_person
 drawable utb
+drawable utb2
 id btnAdd
 id btnChooseImage
 id btnLogin1
@@ -53,7 +54,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string project_id
-style Base.Theme.LatihanCRUD
-style Theme.LatihanCRUD
+style Base.Theme.uasmp
+style Theme.uasmp
 xml backup_rules
 xml data_extraction_rules

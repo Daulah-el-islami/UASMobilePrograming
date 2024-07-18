@@ -3149,6 +3149,7 @@ int drawable test_level_drawable 0x7f070102
 int drawable tooltip_frame_dark 0x7f070103
 int drawable tooltip_frame_light 0x7f070104
 int drawable utb 0x7f070105
+int drawable utb2 0x7f070106
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -4179,7 +4180,6 @@ int style Base_Theme_AppCompat_Light_Dialog_Alert 0x7f110055
 int style Base_Theme_AppCompat_Light_Dialog_FixedSize 0x7f110056
 int style Base_Theme_AppCompat_Light_Dialog_MinWidth 0x7f110057
 int style Base_Theme_AppCompat_Light_DialogWhenLarge 0x7f110058
-int style Base_Theme_LatihanCRUD 0x7f110059
 int style Base_Theme_Material3_Dark 0x7f11005a
 int style Base_Theme_Material3_Dark_BottomSheetDialog 0x7f11005b
 int style Base_Theme_Material3_Dark_Dialog 0x7f11005c
@@ -4211,6 +4211,7 @@ int style Base_Theme_MaterialComponents_Light_Dialog_Bridge 0x7f110075
 int style Base_Theme_MaterialComponents_Light_Dialog_FixedSize 0x7f110076
 int style Base_Theme_MaterialComponents_Light_Dialog_MinWidth 0x7f110077
 int style Base_Theme_MaterialComponents_Light_DialogWhenLarge 0x7f110078
+int style Base_Theme_uasmp 0x7f110469
 int style Base_ThemeOverlay_AppCompat 0x7f110079
 int style Base_ThemeOverlay_AppCompat_ActionBar 0x7f11007a
 int style Base_ThemeOverlay_AppCompat_Dark 0x7f11007b
@@ -4643,7 +4644,6 @@ int style Theme_Design_Light_BottomSheetDialog 0x7f110225
 int style Theme_Design_Light_NoActionBar 0x7f110226
 int style Theme_Design_NoActionBar 0x7f110227
 int style Theme_Hidden 0x7f110228
-int style Theme_LatihanCRUD 0x7f110229
 int style Theme_Material3_Dark 0x7f11022a
 int style Theme_Material3_Dark_BottomSheetDialog 0x7f11022b
 int style Theme_Material3_Dark_Dialog 0x7f11022c
@@ -4721,6 +4721,7 @@ int style Theme_MaterialComponents_Light_NoActionBar 0x7f110273
 int style Theme_MaterialComponents_Light_NoActionBar_Bridge 0x7f110274
 int style Theme_MaterialComponents_NoActionBar 0x7f110275
 int style Theme_MaterialComponents_NoActionBar_Bridge 0x7f110276
+int style Theme_uasmp 0x7f11046a
 int style ThemeOverlay_AppCompat 0x7f110277
 int style ThemeOverlay_AppCompat_ActionBar 0x7f110278
 int style ThemeOverlay_AppCompat_Dark 0x7f110279

@@ -3150,6 +3150,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable utb
+drawable utb2
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -4180,7 +4181,6 @@ style Base_Theme_AppCompat_Light_Dialog_Alert
 style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
-style Base_Theme_LatihanCRUD
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog
 style Base_Theme_Material3_Dark_Dialog
@@ -4212,6 +4212,7 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
+style Base_Theme_uasmp
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4644,7 +4645,6 @@ style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
 style Theme_Hidden
-style Theme_LatihanCRUD
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog
@@ -4722,6 +4722,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
+style Theme_uasmp
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

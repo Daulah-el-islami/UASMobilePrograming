@@ -118,9 +118,9 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/Escobar/AndroidStudioProjects/UASMobilePrograming",
+    "last_opened_file_path": "C:/Users/Escobar/AndroidStudioProjects/UASMobilePrograming/app/src/main/res/drawable",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "experimental",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>

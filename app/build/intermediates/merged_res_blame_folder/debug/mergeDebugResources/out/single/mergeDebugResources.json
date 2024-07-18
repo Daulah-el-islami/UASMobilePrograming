@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_news_add.xml.flat",
-        "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\activity_news_add.xml"
-    },
-    {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_news_add.xml.flat",
+        "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\activity_news_add.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -36,16 +36,8 @@
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_ic_person.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/drawable/ic_person.xml"
-    },
-    {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_news_detail.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\activity_news_detail.xml"
-    },
-    {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_ic_lock.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/drawable/ic_lock.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\drawable_ic_email.xml.flat",
@@ -56,16 +48,8 @@
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\drawable\\utb.png"
     },
     {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/layout_item_data.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/layout/item_data.xml"
-    },
-    {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_button.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/drawable/button.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -88,20 +72,12 @@
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\item_data.xml"
     },
     {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_ic_email.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/drawable/ic_email.xml"
-    },
-    {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\drawable_button.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\drawable\\button.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\xml\\data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/layout_activity_news_detail.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/layout/activity_news_detail.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_register.xml.flat",
@@ -114,10 +90,6 @@
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_edit.xml.flat",
-        "source": "com.example.uasmobileprograming.app-main-45:/drawable/edit.xml"
     },
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\xml_backup_rules.xml.flat",
@@ -146,5 +118,9 @@
     {
         "merged": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-debug-43:\\layout_activity_splashscreen.xml.flat",
         "source": "C:\\Users\\Escobar\\.gradle\\daemon\\8.4\\com.example.uasmobileprograming.app-main-45:\\layout\\activity_splashscreen.xml"
+    },
+    {
+        "merged": "com.example.uasmobileprograming.app-debug-43:/drawable_utb2.png.flat",
+        "source": "com.example.uasmobileprograming.app-main-45:/drawable/utb2.png"
     }
 ]

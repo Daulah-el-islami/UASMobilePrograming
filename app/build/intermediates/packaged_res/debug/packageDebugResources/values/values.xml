@@ -10,9 +10,9 @@
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDdljiu6SmbUafzuUdqKIQkhrTHLDI50g</string>
     <string name="google_storage_bucket" translatable="false">latihan-json-firestore.appspot.com</string>
     <string name="project_id" translatable="false">latihan-json-firestore</string>
-    <style name="Base.Theme.LatihanCRUD" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.uasmp" parent="Theme.Material3.DayNight.NoActionBar">
         
         
     </style>
-    <style name="Theme.LatihanCRUD" parent="Base.Theme.LatihanCRUD"/>
+    <style name="Theme.uasmp" parent="Base.Theme.uasmp"/>
 </resources>
