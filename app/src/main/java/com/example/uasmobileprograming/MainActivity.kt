@@ -10,7 +10,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.FirebaseFirestore
-
 import androidx.activity.enableEdgeToEdge
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -53,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         myAdapter = AdapterList(itemList)
         recyclerView.adapter = myAdapter
 
-        myAdapter.setOnItemClickListener(object: AdapterList.OnItemClickListener {
+        myAdapter.setOnItemClickListener(object : AdapterList.OnItemClickListener {
             override fun onItemClick(item: ItemList) {
                 val intent = Intent(this@MainActivity, NewsDetail::class.java).apply {
                     putExtra("id", item.id)

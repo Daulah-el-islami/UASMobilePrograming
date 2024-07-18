@@ -8,7 +8,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
-class AdapterList(private val itemList: List<ItemList>): RecyclerView.Adapter<AdapterList.ViewHolder>() {
+class AdapterList(private val itemList: List<ItemList>) :
+    RecyclerView.Adapter<AdapterList.ViewHolder>() {
     private var listener: OnItemClickListener? = null
 
     interface OnItemClickListener {
@@ -19,7 +20,7 @@ class AdapterList(private val itemList: List<ItemList>): RecyclerView.Adapter<Ad
         this.listener = listener
     }
 
-    class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val title: TextView = itemView.findViewById(R.id.title)
         val subTitle: TextView = itemView.findViewById(R.id.sub_title)
         val image: ImageView = itemView.findViewById(R.id.item_image)

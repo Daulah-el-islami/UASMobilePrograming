@@ -15,12 +15,12 @@ import com.bumptech.glide.Glide
 import com.google.firebase.firestore.FirebaseFirestore
 
 class NewsDetail : AppCompatActivity() {
-    lateinit var newsTitle: TextView
-    lateinit var newsSubTitle: TextView
-    lateinit var newsImage: ImageView
+    private lateinit var newsTitle: TextView
+    private lateinit var newsSubTitle: TextView
+    private lateinit var newsImage: ImageView
 
-    lateinit var edit: Button
-    lateinit var hapus: Button
+    private lateinit var edit: Button
+    private lateinit var hapus: Button
     private lateinit var db: FirebaseFirestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -73,7 +73,11 @@ class NewsDetail : AppCompatActivity() {
                         finish()
                     }
                     .addOnFailureListener { e ->
-                        Toast.makeText(this, "Terjadi kesalahan saat menghapus : " + e.message, Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            this,
+                            "Terjadi kesalahan saat menghapus: " + e.message,
+                            Toast.LENGTH_SHORT
+                        ).show()
                         Log.w("NewsDetail", "Terjadi kesalahan saat menghapus dokumen", e)
                     }
             }

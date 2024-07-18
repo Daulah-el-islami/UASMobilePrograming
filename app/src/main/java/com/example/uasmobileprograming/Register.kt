@@ -40,22 +40,29 @@ class Register : AppCompatActivity() {
         val password = passwordEditText.text.toString().trim()
 
         if (email.isEmpty()) {
-            Toast.makeText(applicationContext, "Email tidak boleh kosong", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Email tidak boleh kosong", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            Toast.makeText(applicationContext, "Masukkan email yang valid", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Masukkan email yang valid", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
         if (password.isEmpty()) {
-            Toast.makeText(applicationContext, "Password tidak boleh kosong", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Password tidak boleh kosong", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
         if (password.length < 6) {
-            Toast.makeText(applicationContext, "Password harus lebih dari 6 karakter", Toast.LENGTH_SHORT).show()
+            Toast.makeText(
+                applicationContext,
+                "Password harus lebih dari 6 karakter",
+                Toast.LENGTH_SHORT
+            ).show()
             return
         }
 
@@ -65,7 +72,11 @@ class Register : AppCompatActivity() {
                     startActivity(Intent(this, Login::class.java))
                     finish()
                 } else {
-                    Toast.makeText(applicationContext, "Registrasi gagal: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        applicationContext,
+                        "Registrasi gagal: ${task.exception?.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
     }

@@ -1,26 +1,22 @@
 package com.example.uasmobileprograming
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.Toast;
-
-import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-
+import android.app.ProgressDialog
+import android.content.Intent
+import android.net.Uri
+import android.os.Bundle
+import android.util.Log
+import android.widget.Button
+import android.widget.EditText
+import android.widget.ImageView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
-
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageReference
 
 class NewsAdd : AppCompatActivity() {
     private var pickImageRequest: Int = 1
@@ -60,7 +56,6 @@ class NewsAdd : AppCompatActivity() {
         saveNews = findViewById(R.id.btnAdd)
         chooseImage = findViewById(R.id.btnChooseImage)
 
-
         progressDialog = ProgressDialog(this)
         progressDialog.setTitle("Loading. . .")
 
@@ -68,12 +63,11 @@ class NewsAdd : AppCompatActivity() {
             openFileChooser()
         }
 
-        val updateOption = intent
-        if (updateOption != null) {
-            id = updateOption.getStringExtra("id")
-            judul = updateOption.getStringExtra("title")
-            deskripsi = updateOption.getStringExtra("desc")
-            image = updateOption.getStringExtra("imageUrl")
+        intent?.let {
+            id = it.getStringExtra("id")
+            judul = it.getStringExtra("title")
+            deskripsi = it.getStringExtra("desc")
+            image = it.getStringExtra("imageUrl")
 
             title.setText(judul)
             desc.setText(deskripsi)
@@ -81,20 +75,19 @@ class NewsAdd : AppCompatActivity() {
         }
 
         saveNews.setOnClickListener {
-            val newsTitle: String = title.text.toString().trim()
-            val newsDesc: String = desc.text.toString().trim()
+            val newsTitle = title.text.toString().trim()
+            val newsDesc = desc.text.toString().trim()
 
             if (newsTitle.isEmpty() || newsDesc.isEmpty()) {
-                Toast.makeText(this, "Judul & Deskripsi tidak boleh kosong", Toast.LENGTH_SHORT).show()
-                return@setOnClickListener
+                Toast.makeText(this, "Judul & Deskripsi tidak boleh kosong", Toast.LENGTH_SHORT)
+                    .show()
             } else {
                 progressDialog.show()
                 if (imageUrl != null) {
                     uploadImageToStorage(newsTitle, newsDesc)
                 } else {
-                    saveData(newsTitle, newsDesc, image?:"")
+                    saveData(newsTitle, newsDesc, image ?: "")
                 }
-
             }
         }
     }
@@ -104,23 +97,24 @@ class NewsAdd : AppCompatActivity() {
             type = "image/*"
             action = Intent.ACTION_GET_CONTENT
         }
-        startActivityForResult(intent, this.pickImageRequest)
+        startActivityForResult(intent, pickImageRequest)
     }
 
-    @Deprecated("This method has been deprecated in favor of using the Activity Result API\n      which brings increased type safety via an {@link ActivityResultContract} and the prebuilt\n      contracts for common intents available in\n      {@link androidx.activity.result.contract.ActivityResultContracts}, provides hooks for\n      testing, and allow receiving results in separate, testable classes independent from your\n      activity. Use\n      {@link #registerForActivityResult(ActivityResultContract, ActivityResultCallback)}\n      with the appropriate {@link ActivityResultContract} and handling the result in the\n      {@link ActivityResultCallback#onActivityResult(Object) callback}.")
+    @Deprecated("This method has been deprecated in favor of using the Activity Result API")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == pickImageRequest && resultCode == RESULT_OK && data != null && data.data != null) {
-            this.imageUrl = data.data
+            imageUrl = data.data
             imageView.setImageURI(imageUrl)
         }
     }
 
     private fun uploadImageToStorage(newsTitle: String, newsDesc: String) {
-        if (imageUrl != null) {
-            val storageRef: StorageReference = storage.reference.child("news_images/" + System.currentTimeMillis() + ".jpg")
-            storageRef.putFile(imageUrl!!)
-                .addOnSuccessListener { _ ->
+        imageUrl?.let {
+            val storageRef: StorageReference =
+                storage.reference.child("news_images/" + System.currentTimeMillis() + ".jpg")
+            storageRef.putFile(it)
+                .addOnSuccessListener {
                     storageRef.downloadUrl.addOnSuccessListener { uri ->
                         val imageUrl = uri.toString()
                         saveData(newsTitle, newsDesc, imageUrl)
@@ -128,19 +122,24 @@ class NewsAdd : AppCompatActivity() {
                 }
                 .addOnFailureListener { e ->
                     progressDialog.dismiss()
-                    Toast.makeText(this, "Gagal mengunggah gambar: " + e.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this,
+                        "Gagal mengunggah gambar: " + e.message,
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
         }
     }
 
     private fun saveData(newsTitle: String, newsDesc: String, imageUrl: String) {
-        val news: MutableMap<String, Any> = mutableMapOf()
-        news["title"] = newsTitle
-        news["desc"] = newsDesc
-        news["imageUrl"] = imageUrl
+        val news = mutableMapOf<String, Any>(
+            "title" to newsTitle,
+            "desc" to newsDesc,
+            "imageUrl" to imageUrl
+        )
 
         if (id != null) {
-            dbNews.collection("news").document(id?:"")
+            dbNews.collection("news").document(id ?: "")
                 .update(news)
                 .addOnSuccessListener {
                     progressDialog.dismiss()
@@ -149,13 +148,13 @@ class NewsAdd : AppCompatActivity() {
                 }
                 .addOnFailureListener { e ->
                     progressDialog.dismiss()
-                    Toast.makeText(this, "Memperbarui: "+ e.message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Memperbarui: " + e.message, Toast.LENGTH_SHORT).show()
                     Log.w("NewsAdd", "Terjadi kesalahan saat memperbarui dokumen", e)
                 }
         } else {
             dbNews.collection("news")
                 .add(news)
-                .addOnSuccessListener { _ ->
+                .addOnSuccessListener {
                     progressDialog.dismiss()
                     Toast.makeText(this, "Berhasil ditambahkan", Toast.LENGTH_SHORT).show()
                     title.setText("")
@@ -164,8 +163,12 @@ class NewsAdd : AppCompatActivity() {
                 }
                 .addOnFailureListener { e ->
                     progressDialog.dismiss()
-                    Toast.makeText(this, "Terjadi kesalahan saat menambahkan : " + e.message, Toast.LENGTH_SHORT).show()
-                    Log.w("NewsAdd", "Terjadi kesalahan saat menambahkan ", e)
+                    Toast.makeText(
+                        this,
+                        "Terjadi kesalahan saat menambahkan: " + e.message,
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    Log.w("NewsAdd", "Terjadi kesalahan saat menambahkan", e)
                 }
         }
     }

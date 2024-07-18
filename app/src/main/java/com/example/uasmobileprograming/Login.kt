@@ -40,17 +40,20 @@ class Login : AppCompatActivity() {
         val password = passwordEditText.text.toString().trim()
 
         if (email.isEmpty()) {
-            Toast.makeText(applicationContext, "Email tidak boleh kosong", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Email tidak boleh kosong", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
         if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-            Toast.makeText(applicationContext, "Masukkan email yang valid", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Masukkan email yang valid", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
         if (password.isEmpty()) {
-            Toast.makeText(applicationContext, "Password tidak boleh kosong", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "Password tidak boleh kosong", Toast.LENGTH_SHORT)
+                .show()
             return
         }
 
@@ -60,7 +63,11 @@ class Login : AppCompatActivity() {
                     startActivity(Intent(this, MainActivity::class.java))
                     finish()
                 } else {
-                    Toast.makeText(applicationContext, "Login gagal: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        applicationContext,
+                        "Login gagal: ${task.exception?.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
     }

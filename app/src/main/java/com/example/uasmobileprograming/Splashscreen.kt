@@ -6,7 +6,6 @@ import android.os.Handler
 import android.os.Looper
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.uasmobileprograming.R.*
 
 class Splashscreen : AppCompatActivity() {
 
@@ -16,9 +15,9 @@ class Splashscreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_splashscreen)
+        setContentView(R.layout.activity_splashscreen)
 
-        img = findViewById(id.img_splash)
+        img = findViewById(R.id.img_splash)
         img.animate().alpha(1.0f).setDuration(4000L)
 
         handler = Handler(Looper.getMainLooper())
